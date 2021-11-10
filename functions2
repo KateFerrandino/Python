@@ -1,0 +1,10 @@
+def count_function():
+    word = (input('what word should we use?\n'))
+    letter = (input('what letter should we count?\n'))
+    count = 0
+    for letter in word:
+        count = count + 1
+    print(count) 
+
+count_function()
+
